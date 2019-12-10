@@ -9,7 +9,7 @@ const Item = props => {
 			<div>
 				<h1>{props.title}</h1>
 				<p>$ {props.price}</p>
-				<button onClick={()=>props.remove(props.id)}>Remove from cart</button>
+				<button onClick={()=>props.remove(props.cartId)}>Remove from cart</button>
 			</div>
 		</div>
 	);
